@@ -1,9 +1,12 @@
+import Brand from "../components/Brand"
+import Header from "../components/Header"
 
 
 const Home = () => {
   return (
     <div>
-        <header></header>
+        <Header></Header>
+        <Brand></Brand>
     </div>
   )
 }
