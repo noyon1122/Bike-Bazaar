@@ -41,7 +41,7 @@ const handleTab=(id)=>{
                 tabs===1 &&  
                 (
                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 text-gray-500 text-xl font-bold">
-                <Link>
+                <Link to={'/aprillia'}>
                 <div className="flex flex-col justify-center items-center hover:text-black space-y-6  sm:space-y-4">
                     <img className="w-36 h-24 sm:h-28" src={Aprillia} alt="" />
                     <h1 className="text-center hover:text-black ">Aprillia</h1>

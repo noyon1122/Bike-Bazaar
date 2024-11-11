@@ -3,6 +3,8 @@ import Main from "../pages/Main";
 import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
 import Home from "../pages/Home";
+import Aprillia from "../components/Aprillia";
+
 
 const router=createBrowserRouter([
             {
@@ -10,7 +12,7 @@ const router=createBrowserRouter([
                 element:<Main></Main>,
                 children:[
                     {
-                        index:true,
+                        path:'/',
                         element:<Home></Home>
                     },
                     {
@@ -22,7 +24,9 @@ const router=createBrowserRouter([
                         element:<SignUp></SignUp>
                     },
                     {
-                       
+                       path:'/aprillia',
+                       element:<Aprillia></Aprillia>
+
                     }
                 ]
             }
