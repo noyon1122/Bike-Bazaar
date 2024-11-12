@@ -16,7 +16,7 @@ const SingleBike = ({bike}) => {
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
            {bike_name}
           </h5>
-          <p className="font-medium text-xl text-red-600">{price} tk</p>
+          <p className="font-medium text-xl text-red-600">TK {price}</p>
           <div className="flex gap-6">
           <p className="text-gray-600">{cc} cc</p>
           <p className="text-gray-600">{body_style}</p>

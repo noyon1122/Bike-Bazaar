@@ -4,6 +4,10 @@ import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
 import Home from "../pages/Home";
 import Aprillia from "../components/Aprillia";
+import Bajaj from "../components/Bajaj/Bajaj";
+import Benelli from "../components/Benelli/Benelli";
+import Hero from "../components/Hero/Hero";
+import Escorts from "../components/Escorts/Escorts";
 
 
 const router=createBrowserRouter([
@@ -27,6 +31,22 @@ const router=createBrowserRouter([
                        path:'/aprillia',
                        element:<Aprillia></Aprillia>
 
+                    },
+                    {
+                        path:'/bajaj',
+                        element:<Bajaj></Bajaj>
+                    },
+                    {
+                        path:'/benelli',
+                        element:<Benelli></Benelli>
+                    },
+                    {
+                     path:'/hero',
+                     element:<Hero></Hero>
+                    },
+                    {
+                        path:'escorts',
+                        element:<Escorts></Escorts>
                     }
                 ]
             }

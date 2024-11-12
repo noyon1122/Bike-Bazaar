@@ -30,6 +30,10 @@ async function run() {
   try {
 
     const AprilliaCollection=client.db("bikeBazaar").collection("Aprillia");
+    const BajajCollection=client.db("bikeBazaar").collection("Bajaj");
+    const BenelliCollection=client.db("bikeBazaar").collection("Benelli");
+    const HeroCollection=client.db("bikeBazaar").collection("Hero");
+    const EscortsCollection=client.db("bikeBazaar").collection("Escorts");
     // Connect the client to the server	(optional starting in v4.7)
    // await client.connect();
     // Send a ping to confirm a successful connection
@@ -40,6 +44,28 @@ async function run() {
         const result=await AprilliaCollection.find().toArray()
         res.send(result);
     })
+
+    //get all the Bajaj bike 
+    app.get('/bajaj',async(req,res)=>{
+      const result=await BajajCollection.find().toArray()
+      res.send(result);
+  })
+   //get all the Benilli bike 
+   app.get('/benelli',async(req,res)=>{
+    const result=await BenelliCollection.find().toArray()
+    res.send(result);
+})
+
+//get all the Hero bike 
+app.get('/hero',async(req,res)=>{
+  const result=await HeroCollection.find().toArray()
+  res.send(result);
+})
+//get all the Escorts bike 
+app.get('/escorts',async(req,res)=>{
+  const result=await EscortsCollection.find().toArray()
+  res.send(result);
+})
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } finally {

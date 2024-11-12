@@ -47,43 +47,43 @@ const handleTab=(id)=>{
                     <h1 className="text-center hover:text-black ">Aprillia</h1>
                   </div>
                 </Link>
-                 <Link>
+                 <Link to={'bajaj'}>
                  <div className="flex flex-col justify-center items-center hover:text-black">
                     <img className="w-36 h-28" src={Bejaj} alt="" />
-                    <h1 className="text-center hover:text-black ">Bejaj</h1>
+                    <h1 className="text-center hover:text-black ">Bajaj</h1>
                   </div>
                  </Link>
-                  <Link>
+                  <Link to={'/benelli'}>
                   <div className="flex flex-col justify-center items-center hover:text-black">
                     <img className="w-36 h-28" src={Benelli} alt="" />
                     <h1 className="text-center hover:text-black ">Benelli</h1>
                   </div>
                   </Link>
-                <Link>
+                <Link to={'/escorts'}>
                 <div className="flex flex-col justify-center items-center hover:text-black">
                     <img className="w-36 h-28" src={Escorts} alt="" />
                     <h1 className="text-center hover:text-black ">Escorts</h1>
                   </div>
                 </Link>
-                 <Link>
+                 <Link to={'/hero'}>
                  <div className="flex flex-col justify-center items-center hover:text-black">
                     <img className="w-36 h-28" src={Hero} alt="" />
                     <h1 className="text-center hover:text-black ">Hero</h1>
                   </div>
                  </Link>
-                 <Link>
+                 <Link to={'/aprillia'}>
                  <div className="flex flex-col justify-center items-center hover:text-black">
                     <img className="w-36 h-28" src={TVS} alt="" />
                     <h1 className="text-center hover:text-black ">TVS</h1>
                   </div>
                  </Link>
-                 <Link>
+                 <Link to={'/bajaj'}>
                  <div className="flex flex-col justify-center items-center hover:text-black">
                     <img className="w-36 h-28" src={Mahindra} alt="" />
                     <h1 className="text-center hover:text-black ">Mahindra</h1>
                   </div>
                  </Link>
-                 <Link>
+                 <Link to={'/hero'}>
                  <div className="flex flex-col justify-center items-center  hover:text-black">
                     <img className="w-36 h-28" src={Royal} alt="" />
                     <h1 className="text-center ">Royal</h1>
