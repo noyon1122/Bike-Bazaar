@@ -1,5 +1,6 @@
 import Brand from "../components/Brand"
 import Header from "../components/Header"
+import PopularBike from "./PopularBike"
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
         <Header></Header>
         <Brand></Brand>
+        <PopularBike></PopularBike>
     </div>
   )
 }

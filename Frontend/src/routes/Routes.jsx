@@ -47,6 +47,9 @@ const router=createBrowserRouter([
                     {
                         path:'escorts',
                         element:<Escorts></Escorts>
+                    },
+                    {
+                        path:''
                     }
                 ]
             }

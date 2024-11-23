@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom'
 
 const SingleBike = ({bike}) => {
     const {bike_name,cc,image,price,description,body_style}=bike
@@ -23,8 +23,8 @@ const SingleBike = ({bike}) => {
           </div>
       </div>
       <div className="p-5 flex justify-between items-center">
-      <button className="btn btn-success">Buy Now</button>
-      <button className="btn btn-ghost">View Details</button>
+      <Link to={''}><button className="btn btn-success">Buy Now</button></Link>
+      <Link to={'details'}><button className="btn btn-ghost">View Details</button></Link>
       </div>
     </div>
   );

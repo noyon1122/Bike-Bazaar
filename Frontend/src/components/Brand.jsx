@@ -27,13 +27,13 @@ const handleTab=(id)=>{
             {/*Bike Tabs  */}
             <div  className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                 <div style={{borderBottom: tabs===1 ? '1px solid red':"", color: tabs===1 ? 'red':''}}
-                 onClick={()=>handleTab(1)} className="w-full text-xl text-center font-medium py-2  hover:border hover:bg-gray-100 rounded-md">Brand</div>
+                 onClick={()=>handleTab(1)} className="w-full text-xl text-center font-medium py-2  hover:bg-gray-200 rounded-md">Brand</div>
                 <button style={{borderBottom: tabs===2 ? '1px solid red':"", color: tabs===2 ? 'red':'' }}
-                onClick={()=>handleTab(2)} className="w-full text-xl font-medium p-2">Budget</button>
+                onClick={()=>handleTab(2)} className="w-full text-xl font-medium p-2 hover:bg-gray-200 rounded-md">Budget</button>
                 <button style={{borderBottom: tabs===3 ? '1px solid red':"",color: tabs===3 ? 'red':''}}
-                 onClick={()=>handleTab(3)} className="w-full text-xl font-medium p-2">Displacement</button>
+                 onClick={()=>handleTab(3)} className="w-full text-xl font-medium p-2 hover:bg-gray-200 rounded-md">Displacement</button>
                 <button style={{borderBottom: tabs===4 ? '1px solid red':"",color: tabs===4 ? 'red':''}}
-                onClick={()=>handleTab(4)} className="w-full text-xl font-medium p-2">Body Style</button>
+                onClick={()=>handleTab(4)} className="w-full text-xl font-medium p-2 hover:bg-gray-200 rounded-md">Body Style</button>
             </div>
              {/* Choose by Brand */}
             <div>
